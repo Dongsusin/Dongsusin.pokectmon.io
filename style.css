@@ -76,9 +76,10 @@ body {
     rgba(12, 13, 19) 97%
   );
 }
-.name,.type{
+.name{
   color: white;
   font-size: 1rem;
+  font-weight: bold;
 }
 .card:hover .wrapper::before,.wrapper::after {
   opacity: 1;
