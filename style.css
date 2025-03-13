@@ -18,7 +18,6 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
-  display: flex;
   justify-content: center;
   align-items: center;
   background: #191c29;
@@ -59,7 +58,6 @@ header button{
 }
 header h1 button{
   display: flex;
-  margin-left: 25%;
   font-weight: bold;
 }
 header button{
@@ -71,6 +69,32 @@ header button{
 header button:hover{
   font-size: 2.5rem;
   background-image: linear-gradient(135deg, #13035d 0%, #c993ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*Encyclopedia*/
+#Encyclopedia{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#Encyclopedia button:hover{
+  background: linear-gradient(#ffffff,#ff3838);
+}
+#Encyclopedia img{
+  width: 25vw;
+  height: 20vh;
+}
+.select{
+  margin: 3.5rem 3.5rem;
+}
+.title{
+  padding-top: 5rem;
+  margin-bottom: 3rem;
+  font-size: 5rem;
+  align-items: center;
+  justify-self: center;
+  background-image: linear-gradient(to top, #ff3838 0%, #ffffff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
