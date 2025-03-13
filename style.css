@@ -185,3 +185,85 @@ header button:hover{
   opacity: 1;
   transform: translate3d(0%, -30%, 100px);
 }
+/*type*/
+.type{
+  width: 6rem;
+  height: 2.5rem;
+  border-radius: 25%;
+  text-align: center;
+  justify-content: center;
+  position : absolute;
+  bottom : 32.5%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  opacity : 0.75;
+}
+.type2{
+  width: 6rem;
+  height: 2.5rem;
+  border-radius: 25%;
+  text-align: center;
+  justify-content: center;
+  position : absolute;
+  left: 70%;
+  bottom : 32.5%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  opacity : 0.75;
+}
+.normal{
+  background-color: #cfd9df;
+}
+.fire{
+  background-color: #ff3838;
+}
+.water{
+  background-color: blue;
+}
+.electric{
+  background-color: yellow;
+}
+.grass{
+  background-color:greenyellow;
+}
+.ice{
+  background-color: aqua;
+}
+.fight{
+  background-color:brown;
+}
+.poison{
+ background-color: #8000ff;
+}
+.ground{
+  background-color: darkgoldenrod;
+}
+.fly{
+  background-color: rgb(0, 140, 255);
+}
+.psychic{
+  background-color: #c993ff;
+}
+.bug{
+  background-color:rgb(77, 153, 1);
+}
+.rock{
+  background-color: rgb(116, 51, 4);
+}
+.ghost{
+  background-color: #320063;
+}
+.dragon{
+  background-color: #13035d;
+}
+.dark{
+  background-color: #191c29;
+}
+.steel{
+  background-color: #808589;
+}
+.fairt{
+  background-color: pink;
+}
